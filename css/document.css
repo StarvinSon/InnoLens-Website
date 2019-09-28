@@ -1,0 +1,54 @@
+table#document {
+    text-align: left;
+    line-height: 40px;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    width: 100%;
+    margin: 50px auto;
+    font-weight: bolder;
+}
+
+table#document td:first-child {
+    padding: 0 15px 0 20px;
+    border-radius: 1rem 0 0 1rem;
+}
+
+table#document td:last-child {
+    padding: 0 15px 0 20px;
+    border-radius: 0 1rem 1rem 0;
+}
+
+table#document tbody tr.disabled {
+    background-color: #DEDDEF;
+    cursor: not-allowed;
+}
+
+table#document tbody tr.disabled {
+    color: #8884BB;
+    cursor: not-allowed;
+}
+
+table#document tbody tr.enabled:hover {
+    background-color: #CBC8FB;
+    cursor: default;
+}
+
+table#document tbody td {
+    border-bottom: 1px solid #9E97F3;
+}
+
+table#document td:last-child {
+    text-align: right;
+    padding-right: 20px;
+}
+
+table#document tr.enabled .download {
+    fill: #5A50DE;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+table#document tr.enabled .download:hover {
+    fill: #3C31CC;
+}
