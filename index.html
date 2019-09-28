@@ -24,7 +24,8 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
-    
+
+    <link rel="stylesheet" href="css/timeline.css">
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
@@ -53,6 +54,7 @@
                 <li><a href="#courses-section" class="nav-link">Courses</a></li>
                 <li><a href="#programs-section" class="nav-link">Programs</a></li>
                 <li><a href="#teachers-section" class="nav-link">Teachers</a></li>
+                <li><a href="#timeline-section" class="nav-link">Project Schedule</a></li>
               </ul>
             </nav>
           </div>
@@ -361,6 +363,174 @@
       </div>
     </div>
 
+    <div class="site-section" id="timeline-section">
+      <div class="container">
+
+        <div class="row mb-5 justify-content-center">
+          <div class="col-lg-7 mb-5 text-center"  data-aos="fade-up" data-aos-delay="">
+            <h2 class="section-title">Project Schedule</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 col-lg-12 mb-12" data-aos="fade-up" data-aos-delay="300">
+            <!-- # component starts -->
+            <div class="pres-timeline" id="this-timeline">
+              <!-- ###   -->
+              <!--   <div class="periods-section"> -->
+              <div class="periods-container">
+                <section class="period-single" period="period1">
+                    <h4 class="year">Oct to Nov 2019</h4>
+                    <h2 class="title">Prototype</h2>
+                    <p>At this stage, the most basic work will be done to determine the general structure of the project.</p>
+                </section>
+                <section class="period-single" period="period2">
+                    <h4 class="year">Dec to Jan 2020</h4>
+                    <h2 class="title">Elaboration</h2>
+                    <p>The most challenging work will be accomplished at this stage, as to confirm the system is feasible.</p>
+                </section>
+                <section class="period-single" period="period3">
+                    <h4 class="year">Jan to Feb 2020</h4>
+                    <h2 class="title">Construction (Frontend)</h2>
+                    <p>Most of the frontend design will be completed at this stage. 
+                      The project will have a user interface for most basic functions. 
+                      The corresponding backend framework will be ready as well.</p>
+                </section>
+                <section class="period-single" period="period4">
+                    <h4 class="year">Feb to Mar 2020</h4>
+                    <h2 class="title">Construction (Backend)</h2>
+                    <p>Other backend functions will be implemented at this stage to finalize the system.</p>
+                </section>
+                <section class="period-single" period="period5">
+                    <h4 class="year">Mar to Apr 2020</h4>
+                    <h2 class="title">Testing</h2>
+                    <p>At this stage, the system will begin to test with different data, so that it can be debugged before publishing.</p>
+                </section>
+                <div class="btn-back">
+                    <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                      <path fill="none" d="M0 0h30v30H0z" />
+                      <path fill="#D8D8D8" fill-rule="evenodd"
+                        d="M11.828 15l7.89-7.89-2.83-2.828L6.283 14.89l.11.11-.11.11L16.89 25.72l2.828-2.83" />
+                    </svg>
+                </div>
+                <div class="btn-next">
+                  <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="none" d="M0 0h30v30H0z" />
+                    <path fill="#D8D8D8" fill-rule="evenodd"
+                      d="M18.172 14.718l-7.89-7.89L13.112 4l10.606 10.607-.11.11.11.11-10.608 10.61-2.828-2.83 7.89-7.89" />
+                  </svg>
+                </div>
+              </div>
+              <!--   </div> -->
+              <!-- ### -->
+              <!--   <div class="timeline-section"> -->
+              <div class="timeline-container">
+                <!--     # timeline graphic place holder - fill with js -->
+                <div class="timeline"></div>
+              </div>
+              <!--   </div> -->
+              <!-- ### -->
+              <!--   <div class="cards-section"> -->
+              <div class="cards-container">
+                <section class="card-single active" period="period1">
+                  <h4 class="year">Oct to Nov 2019</h4>
+                  <h2 class="title">Implement a prototype of the dashboard</h2>
+                  <div class="content">
+                    <div class="img-container">
+                      <img src="images/timeline/prototype.jpg"
+                        alt="" />
+                    </div>
+                    <p>A simple static webpage or paper prototype will be made to illustrate the dashboard. 
+                      The group will agree on the general theme of the dashboard.</p>
+                  </div>
+                </section>
+                <section class="card-single active" period="period1">
+                  <h4 class="year">Oct to Nov 2019</h4>
+                  <h2 class="title">Define the logic and database structure</h2>
+                  <div class="content">
+                    <div class="img-container">
+                      <img src="images/timeline/database.svg"
+                        alt="" />
+                    </div>
+                    <p>The database structure will be defined, including the types of data and their relationship.</p>
+                  </div>
+                </section>
+                <section class="card-single active" period="period2">
+                  <h4 class="year">Dec to Jan 2020</h4>
+                  <h2 class="title">Develop the pattern matching algorithm for hazard detecting</h2>
+                  <div class="content">
+                    <div class="img-container">
+                      <img src="images/timeline/bigdata.jpg"
+                        alt="" />
+                    </div>
+                    <p>The model for electricity and air quality pattern matching will be developed and trained.</p>
+                  </div>
+                </section>
+                <section class="card-single active" period="period3">
+                  <h4 class="year">Jan to Feb 2020</h4>
+                  <h2 class="title">Design staff backstage dashboard</h2>
+                  <div class="content">
+                    <div class="img-container">
+                      <img src="images/timeline/backstage.jpg"
+                        alt="" />
+                    </div>
+                    <p>The design agreed on previous stage will be implemented. The backstage dashboard for staff will be realized.</p>
+                  </div>
+                </section>
+                <section class="card-single active" period="period3">
+                  <h4 class="year">Jan to Feb 2020</h4>
+                  <h2 class="title">Design user dashboard</h2>
+                  <div class="content">
+                    <div class="img-container">
+                      <img src="images/timeline/userdashboard.png"
+                        alt="" />
+                    </div>
+                    <p>The design agreed on previous stage will be implemented. The dashboard for users will be realized.</p>
+                  </div>
+                </section>
+                <section class="card-single active" period="period4">
+                  <h4 class="year">Feb to Mar 2020</h4>
+                  <h2 class="title">Develop functions for normal database query operation</h2>
+                  <div class="content">
+                    <div class="img-container">
+                      <img src="images/timeline/query.jpg"
+                        alt="" />
+                    </div>
+                    <p>The analysis that required only database operations will be implemented at the backend as well.</p>
+                  </div>
+                </section>
+                <section class="card-single active" period="period5">
+                  <h4 class="year">Mar to Apr 2020</h4>
+                  <h2 class="title">Perform testing with mock data</h2>
+                  <div class="content">
+                    <div class="img-container">
+                      <img src="images/timeline/testing.png"
+                        alt="" />
+                    </div>
+                    <p>Different artificial datasets, including the extreme ones will be used for testing. They are used to detect calculation errors.</p>
+                  </div>
+                </section>
+                <section class="card-single active" period="period5">
+                  <h4 class="year">Oct to Nov 2019</h4>
+                  <h2 class="title">Perform testing with real data (from DreamLab)</h2>
+                  <div class="content">
+                    <div class="img-container">
+                      <img src="images/timeline/dreamlab.jpg"
+                        alt="" />
+                    </div>
+                    <p>Real datasets generated by the DreamLab will be used for testing. They are used to determine whether the analysis can produce useful and meaningful information.</p>
+                  </div>
+                </section>
+              </div>
+              <!--   </div> -->
+              <!-- ###   -->
+            </div>
+            <!-- # component ends -->
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="site-section bg-image overlay" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row justify-content-center align-items-center">
@@ -559,6 +729,7 @@
 
   
   <script src="js/main.js"></script>
+  <script src="js/timeline.js"></script>
     
   </body>
 </html>
