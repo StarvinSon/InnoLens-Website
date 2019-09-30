@@ -1,28 +1,68 @@
-#document a {
+#document div.li {
     margin-bottom: 1rem;
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     border-radius: 1rem;
-    box-shadow: 0 2px 2px #9E97F3;
+    box-shadow: 0 2px 2px #9290AA;
     font-weight: bolder;
 }
 
-#document a.enabled {
+#document div.li.enabled {
     background-color: #FFFFFF;
 }
 
-#document a.enabled:hover {
-    background-color: #CBC8FB;
+#document div.li.enabled:hover {
+    background-color: #E8E6FF;
+    transition: background-color .3s
 }
 
-#document a.disabled {
+#document div.li.disabled {
     background-color: #DEDDEF;
     color: #8884BB;
-    cursor: not-allowed;
 }
 
-#document a.enabled svg.download {
+#document div.li span.title {
+    flex: 1;
+}
+
+#document div.li.enabled a {
+    margin-left: .5rem;
+}
+
+#document div.li.enabled svg.download, #document div.li.enabled svg.view {
+    fill: #504C7B;
+}
+
+#document div.li.enabled svg.download:hover, #document div.li.enabled svg.view:hover {
     fill: #5A50DE;
+    transition: fill .3s;
+}
+
+/* Ripple effect */
+.ripple-effect.run-animation {
+    background-color: rgba(90, 80, 222, .3);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    animation-name: ripple;
+    animation-iteration-count: 1;
+    animation-duration: 1.2s;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+@keyframes ripple {
+    from {
+        width: 32px;
+        height: 32px;
+        border-radius: 100%;
+        opacity: 1;
+    }
+    to {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        opacity: 0;
+    }
 }

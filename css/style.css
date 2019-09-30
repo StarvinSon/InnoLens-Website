@@ -469,6 +469,9 @@ h1, h2, h3, h4, h5,
   -o-transition: 0.2s 0s;
   transition: 0.2s 0s;
 }
+.site-navbar .site-menu-toggle .icon-menu {
+  color: #fff;
+}
 .site-navbar .site-navigation .site-menu .has-children .dropdown.arrow-top {
   position: absolute;
 }
@@ -768,6 +771,12 @@ h1, h2, h3, h4, h5,
 }
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active:after {
   background: #7971ea;
+}
+.sticky-wrapper.is-sticky .site-navbar .site-menu-toggle .icon-menu {
+  color: #000;
+  -webkit-transition: color .3s;
+  -o-transition: color .3s;
+  transition: color .3s;
 }
 .sticky-wrapper .shrink {
   padding-top: 10px !important;

@@ -58,7 +58,7 @@
               <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
                 <!-- <li><a href="#courses-section" class="nav-link">Courses</a></li> -->
-                <li><a href="#about-section" class="nav-link">About InnoLens</a></li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
                 <li><a href="#team-section" class="nav-link">Team</a></li>
                 <li><a href="#timeline-section" class="nav-link">Schedule</a></li>
                 <li><a href="#doc-section" class="nav-link">Documents</a></li>
@@ -582,23 +582,30 @@
         <div class="row justify-content-md-center">
           <div class="col-md-8 col-lg-8 mb-2" data-aos="fade-up" data-aos-delay="100">
             <div id="document">
-              <a href="https://docs.google.com/document/d/1thRdLxG41LCGq2ksNEIGnVXrmLtX3380ygBrXMiJgXI/export?format=pdf" target="_blank" class="enabled">
-                <span>Project Plan</span>
-                <svg class="download" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                  <path d="M16 13h-3V3h-2v10H8l4 4 4-4zM4 19v2h16v-2H4z" />
-                  <path d="M0 0h24v24H0z" fill="none" />
-                </svg>
-              </a>
-
-              <a class="disabled">
-                <span>Interim Report</span>
+              <div class="li enabled">
+                  <span class="title">Project Plan</span>
+                  <a class="ripple" href="https://docs.google.com/document/d/1thRdLxG41LCGq2ksNEIGnVXrmLtX3380ygBrXMiJgXI/edit?usp=sharing" target="_blank">
+                    <svg class="view" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                      <path fill="none" d="M0 0h24v24H0V0z" />
+                      <path d="M12 4C7 4 2.73 7.11 1 11.5 2.73 15.89 7 19 12 19s9.27-3.11 11-7.5C21.27 7.11 17 4 12 4zm0 12.5c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+                    </svg>
+                  </a>
+                  <a class="ripple" href="https://docs.google.com/document/d/1thRdLxG41LCGq2ksNEIGnVXrmLtX3380ygBrXMiJgXI/export?format=pdf" target="_blank">
+                    <svg class="download" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                      <path d="M16 13h-3V3h-2v10H8l4 4 4-4zM4 19v2h16v-2H4z" />
+                      <path d="M0 0h24v24H0z" fill="none" />
+                    </svg>
+                  </a>    
+              </div>
+              <div class="li disabled">
+                <span class="title">Interim Report</span>
                 <span class="download">Coming soon!</span>
-              </a>
+              </div>
 
-              <a class="disabled">
-                <span>Final Report</span>
+              <div class="li disabled">
+                <span class="title">Final Report</span>
                 <span class="download">Coming soon!</span>
-              </a>
+              </div>
             </div>
           </div>
         </div>
@@ -790,6 +797,7 @@
   
   <script src="js/main.js"></script>
   <script src="js/timeline.js"></script>
+  <script src="js/document.js"></script>
     
   </body>
 </html>
