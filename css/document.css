@@ -12,6 +12,21 @@
     background-color: #FFFFFF;
 }
 
+#document div.final {
+    display: block;
+}
+
+#document div.final .item {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    border: 1px solid #DEDDEF;
+    background: #FFFFFF;
+    font-weight: bolder;
+}
+
 #document div.li.enabled:hover {
     background-color: #E8E6FF;
     transition: background-color .3s
@@ -65,4 +80,8 @@
         border-radius: 100%;
         opacity: 0;
     }
+}
+
+.invis {
+    color: rgba(255, 255, 255, 0)!important;
 }
